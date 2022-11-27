@@ -361,3 +361,6 @@ C:\Users\khanh\OneDrive\Máy tính\DuAn1\3.PL\obj\Debug\net5.0-windows\refint\3.
 C:\Users\khanh\OneDrive\Máy tính\DuAn1\3.PL\obj\Debug\net5.0-windows\3.PL.pdb
 C:\Users\khanh\OneDrive\Máy tính\DuAn1\3.PL\obj\Debug\net5.0-windows\3.PL.genruntimeconfig.cache
 C:\Users\khanh\OneDrive\Máy tính\DuAn1\3.PL\obj\Debug\net5.0-windows\ref\3.PL.dll
+C:\Users\khanh\OneDrive\Máy tính\DuAn1\3.PL\obj\Debug\net5.0-windows\_3.PL.FormThongKeKhachHang.resources
+C:\Users\khanh\OneDrive\Máy tính\DuAn1\3.PL\obj\Debug\net5.0-windows\_3.PL.FormThongKeHD.resources
+C:\Users\khanh\OneDrive\Máy tính\DuAn1\3.PL\obj\Debug\net5.0-windows\_3.PL.FormThongKeNV.resources

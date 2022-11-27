@@ -9,4 +9,10 @@
     <ProjectReference Include="..\1.DAL\1.DAL.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="iSerViecs\" />
+    <Folder Include="ViewModels\" />
+    <Folder Include="Serviecs\" />
+  </ItemGroup>
+
 </Project>
