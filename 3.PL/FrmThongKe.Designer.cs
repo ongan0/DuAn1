@@ -44,19 +44,25 @@
             this.groupBox8 = new System.Windows.Forms.GroupBox();
             this.cbb_ngay = new System.Windows.Forms.ComboBox();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.label9 = new System.Windows.Forms.Label();
+            this.lb_sokhachhang = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.panel7 = new System.Windows.Forms.Panel();
             this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
+            this.lb_sohdchuathanhtoan = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.panel8 = new System.Windows.Forms.Panel();
-            this.label14 = new System.Windows.Forms.Label();
+            this.lb_sohd = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.panel9 = new System.Windows.Forms.Panel();
             this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
+            this.lb_doanhthu = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.menuStrip1.SuspendLayout();
             this.panel_kh.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ptp_excel)).BeginInit();
@@ -150,11 +156,18 @@
             // dtg_show
             // 
             this.dtg_show.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtg_show.Location = new System.Drawing.Point(22, 57);
+            this.dtg_show.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Column1,
+            this.Column2,
+            this.Column3,
+            this.Column5,
+            this.Column4,
+            this.Column6});
+            this.dtg_show.Location = new System.Drawing.Point(22, 48);
             this.dtg_show.Name = "dtg_show";
             this.dtg_show.RowHeadersWidth = 51;
             this.dtg_show.RowTemplate.Height = 29;
-            this.dtg_show.Size = new System.Drawing.Size(1120, 268);
+            this.dtg_show.Size = new System.Drawing.Size(1151, 277);
             this.dtg_show.TabIndex = 0;
             // 
             // groupBox6
@@ -214,22 +227,22 @@
             // panel6
             // 
             this.panel6.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.panel6.Controls.Add(this.label9);
+            this.panel6.Controls.Add(this.lb_sokhachhang);
             this.panel6.Controls.Add(this.label10);
             this.panel6.Location = new System.Drawing.Point(952, 39);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(251, 144);
             this.panel6.TabIndex = 13;
             // 
-            // label9
+            // lb_sokhachhang
             // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label9.Location = new System.Drawing.Point(120, 86);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(22, 25);
-            this.label9.TabIndex = 8;
-            this.label9.Text = "0";
+            this.lb_sokhachhang.AutoSize = true;
+            this.lb_sokhachhang.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lb_sokhachhang.Location = new System.Drawing.Point(120, 86);
+            this.lb_sokhachhang.Name = "lb_sokhachhang";
+            this.lb_sokhachhang.Size = new System.Drawing.Size(22, 25);
+            this.lb_sokhachhang.TabIndex = 8;
+            this.lb_sokhachhang.Text = "0";
             // 
             // label10
             // 
@@ -245,7 +258,7 @@
             // 
             this.panel7.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.panel7.Controls.Add(this.label11);
-            this.panel7.Controls.Add(this.label12);
+            this.panel7.Controls.Add(this.lb_sohdchuathanhtoan);
             this.panel7.Controls.Add(this.label13);
             this.panel7.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.panel7.Location = new System.Drawing.Point(649, 39);
@@ -263,15 +276,15 @@
             this.label11.TabIndex = 7;
             this.label11.Text = "Chưa Thanh Toán ";
             // 
-            // label12
+            // lb_sohdchuathanhtoan
             // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Segoe UI Light", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label12.Location = new System.Drawing.Point(113, 86);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(21, 25);
-            this.label12.TabIndex = 6;
-            this.label12.Text = "0";
+            this.lb_sohdchuathanhtoan.AutoSize = true;
+            this.lb_sohdchuathanhtoan.Font = new System.Drawing.Font("Segoe UI Light", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lb_sohdchuathanhtoan.Location = new System.Drawing.Point(113, 86);
+            this.lb_sohdchuathanhtoan.Name = "lb_sohdchuathanhtoan";
+            this.lb_sohdchuathanhtoan.Size = new System.Drawing.Size(21, 25);
+            this.lb_sohdchuathanhtoan.TabIndex = 6;
+            this.lb_sohdchuathanhtoan.Text = "0";
             // 
             // label13
             // 
@@ -286,22 +299,22 @@
             // panel8
             // 
             this.panel8.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.panel8.Controls.Add(this.label14);
+            this.panel8.Controls.Add(this.lb_sohd);
             this.panel8.Controls.Add(this.label15);
             this.panel8.Location = new System.Drawing.Point(363, 39);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(238, 144);
             this.panel8.TabIndex = 12;
             // 
-            // label14
+            // lb_sohd
             // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label14.Location = new System.Drawing.Point(107, 86);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(22, 25);
-            this.label14.TabIndex = 4;
-            this.label14.Text = "0";
+            this.lb_sohd.AutoSize = true;
+            this.lb_sohd.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lb_sohd.Location = new System.Drawing.Point(107, 86);
+            this.lb_sohd.Name = "lb_sohd";
+            this.lb_sohd.Size = new System.Drawing.Size(22, 25);
+            this.lb_sohd.TabIndex = 4;
+            this.lb_sohd.Text = "0";
             // 
             // label15
             // 
@@ -317,7 +330,7 @@
             // 
             this.panel9.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.panel9.Controls.Add(this.label16);
-            this.panel9.Controls.Add(this.label17);
+            this.panel9.Controls.Add(this.lb_doanhthu);
             this.panel9.Controls.Add(this.label18);
             this.panel9.Location = new System.Drawing.Point(70, 39);
             this.panel9.Name = "panel9";
@@ -334,15 +347,15 @@
             this.label16.TabIndex = 2;
             this.label16.Text = "VND ";
             // 
-            // label17
+            // lb_doanhthu
             // 
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label17.Location = new System.Drawing.Point(49, 86);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(22, 25);
-            this.label17.TabIndex = 1;
-            this.label17.Text = "0";
+            this.lb_doanhthu.AutoSize = true;
+            this.lb_doanhthu.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lb_doanhthu.Location = new System.Drawing.Point(49, 86);
+            this.lb_doanhthu.Name = "lb_doanhthu";
+            this.lb_doanhthu.Size = new System.Drawing.Size(22, 25);
+            this.lb_doanhthu.TabIndex = 1;
+            this.lb_doanhthu.Text = "0";
             // 
             // label18
             // 
@@ -353,6 +366,48 @@
             this.label18.Size = new System.Drawing.Size(138, 31);
             this.label18.TabIndex = 0;
             this.label18.Text = "Doanh Thu ";
+            // 
+            // Column1
+            // 
+            this.Column1.HeaderText = "Mã Hóa Đơn ";
+            this.Column1.MinimumWidth = 6;
+            this.Column1.Name = "Column1";
+            this.Column1.Width = 125;
+            // 
+            // Column2
+            // 
+            this.Column2.HeaderText = "Tên Sản Phẩm ";
+            this.Column2.MinimumWidth = 6;
+            this.Column2.Name = "Column2";
+            this.Column2.Width = 125;
+            // 
+            // Column3
+            // 
+            this.Column3.HeaderText = "Số Lượng ";
+            this.Column3.MinimumWidth = 6;
+            this.Column3.Name = "Column3";
+            this.Column3.Width = 125;
+            // 
+            // Column5
+            // 
+            this.Column5.HeaderText = "Đơn Giá ";
+            this.Column5.MinimumWidth = 6;
+            this.Column5.Name = "Column5";
+            this.Column5.Width = 125;
+            // 
+            // Column4
+            // 
+            this.Column4.HeaderText = "Tổng Tiền ";
+            this.Column4.MinimumWidth = 6;
+            this.Column4.Name = "Column4";
+            this.Column4.Width = 125;
+            // 
+            // Column6
+            // 
+            this.Column6.HeaderText = "Số Điện Thoại Khách Hàng";
+            this.Column6.MinimumWidth = 6;
+            this.Column6.Name = "Column6";
+            this.Column6.Width = 125;
             // 
             // FrmThongKe
             // 
@@ -405,18 +460,24 @@
         private System.Windows.Forms.GroupBox groupBox8;
         private System.Windows.Forms.ComboBox cbb_ngay;
         private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label lb_sokhachhang;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Panel panel7;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label lb_sohdchuathanhtoan;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Panel panel8;
-        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label lb_sohd;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Panel panel9;
         private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label lb_doanhthu;
         private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
     }
 }

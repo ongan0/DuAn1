@@ -73,7 +73,7 @@
             // 
             this.lb_tongsokh.AutoSize = true;
             this.lb_tongsokh.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lb_tongsokh.Location = new System.Drawing.Point(122, 77);
+            this.lb_tongsokh.Location = new System.Drawing.Point(107, 77);
             this.lb_tongsokh.Name = "lb_tongsokh";
             this.lb_tongsokh.Size = new System.Drawing.Size(22, 25);
             this.lb_tongsokh.TabIndex = 1;
@@ -217,7 +217,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label6.Location = new System.Drawing.Point(154, 77);
+            this.label6.Location = new System.Drawing.Point(138, 77);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(22, 25);
             this.label6.TabIndex = 1;
