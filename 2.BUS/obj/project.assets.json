@@ -5710,23 +5710,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ADMIN\\.nuget\\packages\\": {},
+    "C:\\Users\\khanh\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\FPT Polytechnic\\PRO131\\DuAn1_Test\\2.BUS\\2.BUS.csproj",
+      "projectUniqueName": "C:\\Users\\khanh\\OneDrive\\Máy tính\\DuAn1\\2.BUS\\2.BUS.csproj",
       "projectName": "2.BUS",
-      "projectPath": "D:\\FPT Polytechnic\\PRO131\\DuAn1_Test\\2.BUS\\2.BUS.csproj",
-      "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "D:\\FPT Polytechnic\\PRO131\\DuAn1_Test\\2.BUS\\obj\\",
+      "projectPath": "C:\\Users\\khanh\\OneDrive\\Máy tính\\DuAn1\\2.BUS\\2.BUS.csproj",
+      "packagesPath": "C:\\Users\\khanh\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\khanh\\OneDrive\\Máy tính\\DuAn1\\2.BUS\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\khanh\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -5741,8 +5741,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\FPT Polytechnic\\PRO131\\DuAn1_Test\\1.DAL\\1.DAL.csproj": {
-              "projectPath": "D:\\FPT Polytechnic\\PRO131\\DuAn1_Test\\1.DAL\\1.DAL.csproj"
+            "C:\\Users\\khanh\\OneDrive\\Máy tính\\DuAn1\\1.DAL\\1.DAL.csproj": {
+              "projectPath": "C:\\Users\\khanh\\OneDrive\\Máy tính\\DuAn1\\1.DAL\\1.DAL.csproj"
             }
           }
         }
@@ -5771,7 +5771,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

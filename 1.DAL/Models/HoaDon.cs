@@ -30,6 +30,7 @@ namespace _1.DAL.Models
         [Column("NgayThanhToan", TypeName = "datetime")]
         public DateTime NgayThanhToan { get; set; }
         public int TrangThai { get; set; }
+        public float TongTien { get; set; }
 
         [ForeignKey("IdKhachHang")]
         public virtual KhachHang KhachHang { get; set; }

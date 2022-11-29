@@ -17,7 +17,7 @@ namespace _3.PL
             InitializeComponent();
         }
         private Form currentFormChild;
-
+    
         private void OpenChildForm(Form childFrom)
         {
             if(currentFormChild != null)

@@ -37,7 +37,7 @@ namespace _1.DAL
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            base.OnConfiguring(optionsBuilder.UseSqlServer(@"Data Source = QUANGBM\SQLEXPRESS;Initial Catalog = DuAn1_QLBN;User Id = Quang;Password = 123456;Connect Timeout=3"));
+            base.OnConfiguring(optionsBuilder.UseSqlServer(@"Data Source = LKK\SQLEXPRESS;Initial Catalog = DuAn1_QLBN;User Id = khanhlk;Password = 123456"));
         }
     
         

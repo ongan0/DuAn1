@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\FPT Polytechnic\\PRO131\\DuAn1_Test\\1.DAL\\1.DAL.csproj": {}
+    "C:\\Users\\khanh\\OneDrive\\Máy tính\\DuAn1\\1.DAL\\1.DAL.csproj": {}
   },
   "projects": {
-    "D:\\FPT Polytechnic\\PRO131\\DuAn1_Test\\1.DAL\\1.DAL.csproj": {
+    "C:\\Users\\khanh\\OneDrive\\Máy tính\\DuAn1\\1.DAL\\1.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\FPT Polytechnic\\PRO131\\DuAn1_Test\\1.DAL\\1.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\khanh\\OneDrive\\Máy tính\\DuAn1\\1.DAL\\1.DAL.csproj",
         "projectName": "1.DAL",
-        "projectPath": "D:\\FPT Polytechnic\\PRO131\\DuAn1_Test\\1.DAL\\1.DAL.csproj",
-        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "D:\\FPT Polytechnic\\PRO131\\DuAn1_Test\\1.DAL\\obj\\",
+        "projectPath": "C:\\Users\\khanh\\OneDrive\\Máy tính\\DuAn1\\1.DAL\\1.DAL.csproj",
+        "packagesPath": "C:\\Users\\khanh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\khanh\\OneDrive\\Máy tính\\DuAn1\\1.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\khanh\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -70,7 +70,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

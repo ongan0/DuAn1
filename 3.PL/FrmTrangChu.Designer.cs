@@ -64,7 +64,7 @@
             this.panel_Left.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel_Left.Location = new System.Drawing.Point(0, 0);
             this.panel_Left.Name = "panel_Left";
-            this.panel_Left.Size = new System.Drawing.Size(200, 636);
+            this.panel_Left.Size = new System.Drawing.Size(200, 846);
             this.panel_Left.TabIndex = 0;
             // 
             // btn_DangXuat
@@ -219,7 +219,7 @@
             this.panel_Top.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.panel_Top.Location = new System.Drawing.Point(200, 0);
             this.panel_Top.Name = "panel_Top";
-            this.panel_Top.Size = new System.Drawing.Size(847, 110);
+            this.panel_Top.Size = new System.Drawing.Size(1310, 110);
             this.panel_Top.TabIndex = 1;
             // 
             // lb_TenTrang
@@ -239,14 +239,14 @@
             this.panel_Body.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel_Body.Location = new System.Drawing.Point(200, 110);
             this.panel_Body.Name = "panel_Body";
-            this.panel_Body.Size = new System.Drawing.Size(847, 526);
+            this.panel_Body.Size = new System.Drawing.Size(1310, 736);
             this.panel_Body.TabIndex = 2;
             // 
             // FrmTrangChu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1047, 636);
+            this.ClientSize = new System.Drawing.Size(1510, 846);
             this.Controls.Add(this.panel_Body);
             this.Controls.Add(this.panel_Top);
             this.Controls.Add(this.panel_Left);
